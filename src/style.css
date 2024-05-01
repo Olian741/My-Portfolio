@@ -58,6 +58,16 @@ h2{
   font-size: 18px;
   font-family: var(--default-font-family);
  }
+ .content-container h3{
+  font-size: 24px;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+ }
+ .content-container p{
+
+  font-size: 14px;
+ }
  .content{
   margin: 30px;
  }
