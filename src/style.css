@@ -16,34 +16,32 @@ h5,
 h6{
   font-family: var(--heading-font-family);
   font-weight: bold;
-  
 }
 h1{
-  font-size: 96px;
+  font-size: 80px;
   
 }
 h2{
   font-size: 64px;
-  color:var(--branding-color);
 }
 h3{
   font-size: 48px;
 }
  p{
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
  }
  .hero{
-  background-color: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
- }
+  display: flex;
+  align-items: center;
+}
  .hero p{
-  font-size: 36px;
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
-  color: 272142;
+
  }
  .hero h2{
   font-family: var(--heading-font-family);
@@ -80,26 +78,52 @@ h3{
  }
  .btn-branding{
   background: var(--branding-color);
-  border-radius: 4px;
+  border-radius: 30px;
   color: #fff;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
  }
- .btn-branding-outline{
-  color: var(--branding-color);
+.container {
+  display: flex;
+  gap: 20px; 
+}
+.content-border {
   border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
- }
+  padding: 10px;
+  width: 100%;
+  border-radius: 16px; 
+  margin: 20px;
+}
+.avatar-img , .hero-img {
+  width: 250px; 
+  height: auto;
+  border-radius: 50%;
+}
+.about-content {
+  flex: 1;
+}
 .project-description{
   padding: 120px 60px;
 }
 .logo{
   max-width: 150px;
-  
+ 
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 45%;
+  text-align: center;
 }
 nav{
   padding: 20px 0;
