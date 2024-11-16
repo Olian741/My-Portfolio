@@ -19,210 +19,225 @@
 </head>
 <body>
   <div class="container">
-    <nav class="d-flex justify-content-between">
-  <img src="images/Olian's logo.png" class="logo d-none d-md-block" alt="Olian Logo">
-  <ul>
-    <li class="active">
-      <a href="/" title="Homepage">Home</a>
-    </li>
-    <li>
-      <a href="#about" title="About Olian">About</a>
-      </li>
-    <li>
-      <a href="#projects" title="Olian's Work">Projects</a>
-      </li>
-    <li>
-      <a href="#contact" title="Contact Olian">Contact</a>
-    </li>
-  </ul>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+      <img src="images/Olian's logo.png" class="logo d-none d-md-block" alt="Olian Logo">
+    </a>
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="/" title="Homepage">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" title="About Olian">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects" title="Olian's Work">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" title="Contact Olian">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
-</nav>
- <div class="hero d-flex align-items-center">
-  <img src="./images/avatar 1.jpg" alt="Olian's Avatar" class="hero-img">
-  <div class="hero-text ms-3">
-  
+<div class="hero d-flex flex-column flex-md-row align-items-center">
+  <img src="./images/avatar 1.jpg" alt="Olian's Avatar" class="hero-img mb-3 mb-md-0">
+  <div class="hero-text ms-md-3 text-center text-md-start">
     <h1>Hi, I am Olian</h1>
     <h1>Mkhawana</h1>
     <h2 class="mb-4">Front-end Developer</h2>
-    <span>
-  <a href="Olian Mkhawana's Cv.pdf" class="btn btn-branding" target="_blank" title="Download CV" download>Download CV</a>
-</span>
-
-    <span>
-      <a href="#contact" class="btn btn-branding" title="Contact Me">Contact Me</a>
-    </span>
-  </div>
-</div>
-   <div class="container mb-5 d-flex align-items-center" id="about">
-  <img src="./images/avatar 2.jpg" alt="Olian's Avatar" class="avatar-img">
-  <div class="about-content ms-4">
-    <p class="text-center m-2">Get To Know More</p>
-    <h2 class="text-center m-5">About Me</h2>
-
-    <div class="d-flex gap-3 mb-3">
-      <div class="content-border">
-        <h5>Experience</h5> 
-        <p>8 months</p>
-        <p>Web Development</p>
-      </div>
-      <div class="content-border">
-        <h5>Education</h5> 
-        <p>Law Qualification</p>
-      </div>
-    </div>
-
-    <p>
-Hello, I am Olian Mkhawana, a passionate front-end developer with 8 months of hands-on coding experience.
-My journey in tech began through dedicated self-study and bootcamps, where I honed my skills in creating user-friendly, visually engaging websites. Alongside my background in law, I discovered my love for coding as a creative challenge, pushing me to build intuitive designs and bring ideas to life online.
-Through my portfolio, you will find various projects, including an e-commerce website and a blog that highlights my appreciation for clean design and functionality. My work emphasises attention to detail and I strive to ensure every user has a seamless experience.
-I am currently expanding my skills and I am excited to explore opportunities that blend my coding expertise with a strong focus on usability. Outside of tech, I enjoy reading mindful books, spending time in my garden and finding balance through meditation. I look forward to connecting with like-minded people and continuing to grow in the tech world.
-    </p>
-   
-  </div>
-</div>
-
-
-<p class="text-center mb" id="projects">Explore My</p>
- <h2 class="text-center">Experience</h2>
-<div class="d-flex gap-3 mb-3">
-      <div class="content-border">
-        <h5 class="text-center">Web Development</h5>
-        <ul class="skills-list">
-          <li>
-        <h6><i class="fa-brands fa-html5"></i>
-      HTML
-        </h6>
-        <p>Basic</p>
-          </li>
-    <li>
-        <h6><i class="fa-brands fa-css3-alt"></i>
-      CSS
-        </h6>
-        <p>Basic</p>
-          </li>
-          <li>
-        <h6><i class="fa-brands fa-js"></i>
-      JavaScript
-        </h6>
-        <p>Basic</p>
-          </li>
-          <li>
-           <h6><i class="fa-brands fa-github"></i>
-      Github
-        </h6>
-        <p>Basic</p>
-          </li>
-        </ul>
-      </div>
-      <div class="content-border">
-        <h5 class="text-center ">Web Development</h5>
-        <ul class="skills-list">
-          <li>
-        <h6><i class="fa-brands fa-google"></i>
-      SEO
-        </h6>
-        <p>Basic</p>
-          </li>
-           <li>
-        <h6><i class="fa-brands fa-react"></i>
-        React
-        </h6>
-        <p>Basic</p>
-          </li>
-           <li>
-        <h6><i class="fa-brands fa-bootstrap"></i>
-        Bootstrap
-        </h6>
-        <p>Basic</p>
-          </li>
-           <li>
-        <h6><i class="fa-brands fa-git-alt"></i>
-        Git
-        </h6>
-        <p>Basic</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-<p class="text-center m-4">Browse My</p>
-<h2 class="text-center">Experience</h2>
-<div class="d-flex gap-3 mb-3">
-      <div class="content-border">
-        <h4>Weather
-          App
-        </h4>
-        <p>HTML, CSS, React</p>
-        <img src="./images/Weather.jpg" alt="Weather App ">
-        <h5 class="text-center">Project One</h5>
-        <div class="button-container mb-4">
-      <span>
-  <a href="https://react-weather-appppp.netlify.app/" target="_blank" class="btn btn-small-branding" title="Download CV">Live Demo</a>
-</span>
-<span>
-  <a href="https://github.com/Olian741/weather-app-react" target="_blank" class="btn btn-small-branding" title="Contact Me">Github</a>
-</span>
-        </div>
-      </div>
-      <div class="content-border">
-        <h4>Cafe</h4>
-        <p>HTML, CSS, JavaScript</p>
-        <img src="./images/Restaurant.jpeg" alt="Cafe">
-        <h5 class="text-center">Project Two</h5>
-         <div class="button-container">
-      <span>
-  <a href="https://brew-havennnn.netlify.app/" target="_blank" class="btn btn-small-branding" title="Download CV">Live Demo</a>
-</span>
-<span>
-  <a href="https://github.com/Olian741/Cafe" target="_blank" class="btn btn-small-branding" title="Contact Me">Github</a>
-</span>
-        </div>
-      </div>
-        <div class="content-border">
-        <h4> E-Commerce</h4>
-        <p>HTML, CSS, JavaScript</p>
-        <img src="./images/Store.jpeg" alt="e-commerce">
-        <h5 class="text-center">Project Three</h5>
-         <div class="button-container">
-      <span>
-  <a href="https://olian-e-commerce.netlify.app/" target="_blank" class="btn btn-small-branding" title="Download CV">Live Demo</a>
-</span>
-<span>
-  <a href="https://github.com/Olian741/my-e-commerce" target="_blank" class="btn btn-small-branding" title="Contact Me">Github</a>
-</span>
-        </div>
-      </div>
-    </div>
-
-
-      <footer id="contact">
-        <div class="contact-box d-flex 
-        justify-content-between mb-5 d-none d-md-flex">
-          <div>
-          <p class="text-muted">Get in Touch</p>
-          <h3>Contact Me</h3>
-          </div>
-          <div>
-
-          </div>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-      <a href="mailto:olianmkhawana741@gmail.com" 
-      class="email-link"
-      title="Email Olian">
-        olianmkhawana741@gmail.com
+    <div class="d-flex justify-content-center justify-content-md-start flex-wrap gap-3 mt-3">
+      <a href="Olian Mkhawana's Cv.pdf" class="btn btn-branding btn-sm px-4 py-2" target="_blank" title="Download CV" download>
+        Download CV
       </a>
-        </div>
-      <div class="social-links d-flex justify-content-center mb-5">
-        <a href="https://www.github.com/Olian741" 
-        target="_blank"
-        title="Github Profile">
-          <i class="fa-brands fa-github"></i></a>
-      </div>
-      <p class="text-center mt-5">✌️This project was coded by Olian Mkhawana and it is 
-        <a href="https://github.com/Olian741/My-Portfolio" target="_blank"> open-sourced</a>
-      </p>
-      </footer>
+      <a href="#contact" class="btn btn-branding btn-sm px-4 py-2" title="Contact Me">
+        Contact Me
+      </a>
     </div>
+  </div>
+</div>
+<div class="container mb-5" id="about">
+  <div class="d-flex flex-column flex-md-row align-items-center">
+    <img src="./images/avatar 2.jpg" alt="Olian's Avatar" class="avatar-img rounded-circle mb-3 mb-md-0">
+    <div class="about-content ms-md-4 text-center text-md-start">
+      <p class="text-muted small mb-2">Get To Know More</p>
+      <h2 class="h4 mb-4">About Me</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-center gap-2 mb-3">
+        <div class="content-border p-2">
+          <h6>Experience</h6>
+          <p class="small mb-1">8 months</p>
+          <p class="small mb-0">Web Development</p>
+        </div>
+        <div class="content-border p-2">
+          <h6>Education</h6>
+          <p class="small mb-1">Law Qualification</p>
+        </div>
+      </div>
+      <p class="small">
+        Hello, I am Olian Mkhawana, 
+        a passionate front-end developer 
+        with 8 months of hands-on coding experience.
+        My journey in tech began through dedicated
+         self-study and bootcamps, where I honed 
+         my skills in creating user-friendly,
+          visually engaging websites.
+           Alongside my background in law,
+           I discovered my love for coding as a 
+           creative challenge, pushing me to build
+            intuitive designs and bring ideas to life
+             online.
+        Through my portfolio, you will find various
+         projects, including an e-commerce website
+          and a blog that highlights my appreciation
+           for clean design and functionality.
+            My work emphasizes attention to detail
+             and I strive to ensure every user has 
+             a seamless experience.
+        I am currently expanding my skills 
+        and I am excited to explore opportunities
+         that blend my coding expertise with a 
+         strong focus on usability. 
+         Outside of tech, I enjoy reading mindful books,
+          spending time in my garden, and finding balance
+           through meditation. 
+           I look forward to connecting with
+            like-minded people and continuing
+             to grow in the tech world.
+      </p>
+    </div>
+  </div>
+</div>
+      
+
+    
+
+
+   <p class="text-center mb-3" id="projects">Explore My</p>
+<h2 class="text-center mb-4">Experience</h2>
+<div class="row justify-content-center">
+  <div class="col-12 col-md-5 mb-4">
+    <div class="content-border p-3">
+      <h5 class="text-center">Web Development</h5>
+      <ul class="skills-list">
+        <li>
+          <h6><i class="fa-brands fa-html5"></i> HTML</h6>
+          <p>Basic</p>
+        </li>
+        <li>
+          <h6><i class="fa-brands fa-css3-alt"></i> CSS</h6>
+          <p>Basic</p>
+        </li>
+        <li>
+          <h6><i class="fa-brands fa-js"></i> JavaScript</h6>
+          <p>Basic</p>
+        </li>
+        <li>
+          <h6><i class="fa-brands fa-github"></i> Github</h6>
+          <p>Basic</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-5">
+    <div class="content-border p-3">
+      <h5 class="text-center">Web Development</h5>
+      <ul class="skills-list">
+        <li>
+          <h6><i class="fa-brands fa-google"></i> SEO</h6>
+          <p>Basic</p>
+        </li>
+        <li>
+          <h6><i class="fa-brands fa-react"></i> React</h6>
+          <p>Basic</p>
+        </li>
+        <li>
+          <h6><i class="fa-brands fa-bootstrap"></i> Bootstrap</h6>
+          <p>Basic</p>
+        </li>
+        <li>
+          <h6><i class="fa-brands fa-git-alt"></i> Git</h6>
+          <p>Basic</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<p class="text-center m-4">Browse My</p>
+<h2 class="text-center mb-4">Experience</h2>
+<div class="row justify-content-center">
+  <div class="col-12 col-md-4 mb-4">
+    <div class="content-border p-2 d-flex flex-column h-100">
+      <h4>Weather App</h4>
+      <p>HTML, CSS, React</p>
+      <img src="./images/Weather.jpg" alt="Weather App" class="img-fluid mb-3">
+      <h5 class="text-center">Project One</h5>
+      <div class="button-container text-center mb-4">
+        <a href="https://react-weather-appppp.netlify.app/" target="_blank" class="btn btn-small-branding" title="Live Demo">Live Demo</a>
+        <a href="https://github.com/Olian741/weather-app-react" target="_blank" class="btn btn-small-branding" title="Github">Github</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-4 mb-4">
+    <div class="content-border p-2 d-flex flex-column h-100">
+      <h4>Cafe</h4>
+      <p>HTML, CSS, JavaScript</p>
+      <img src="./images/Restaurant.jpeg" alt="Cafe" class="img-fluid mb-3">
+      <h5 class="text-center">Project Two</h5>
+      <div class="button-container text-center">
+        <a href="https://brew-havennnn.netlify.app/" target="_blank" class="btn btn-small-branding" title="Live Demo">Live Demo</a>
+        <a href="https://github.com/Olian741/Cafe" target="_blank" class="btn btn-small-branding" title="Github">Github</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 mb-4">
+    <div class="content-border p-2 d-flex flex-column h-100">
+      <h4>E-Commerce</h4>
+      <p>HTML, CSS, JavaScript</p>
+      <img src="./images/Store.jpeg" alt="E-commerce" class="img-fluid mb-3">
+      <h5 class="text-center">Project Three</h5>
+      <div class="button-container text-center">
+        <a href="https://olian-e-commerce.netlify.app/" target="_blank" class="btn btn-small-branding" title="Live Demo">Live Demo</a>
+        <a href="https://github.com/Olian741/my-e-commerce" target="_blank" class="btn btn-small-branding" title="Github">Github</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <footer id="contact">
+<div class="contact-box d-flex justify-content-between mb-5">
+    <div>
+      <p>Get in Touch</p>
+      <h3>Contact Me</h3>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mb-5">
+    <a href="mailto:olianmkhawana741@gmail.com" class="email-link" title="Email Olian">
+      olianmkhawana741@gmail.com
+    </a>
+  </div>
+  <div class="social-links d-flex justify-content-center mb-5">
+    <a href="https://www.github.com/Olian741" target="_blank" title="Github Profile">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+  <p class="text-center mt-5 small-text">✌️This project was coded by Olian Mkhawana and it is
+    <a href="https://github.com/Olian741/My-Portfolio" target="_blank"> open-sourced</a>
+  </p>
+</footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

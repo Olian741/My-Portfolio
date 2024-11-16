@@ -102,10 +102,10 @@ h3{
 }
 .content-border {
   border: 1px solid var(--branding-color);
-  padding: 10px;
-  width: 100%;
-  border-radius: 16px; 
-  margin: 20px;
+  padding: 1rem;
+  width: 350px;
+  border-radius: 6px; 
+  margin:10px;
 }
 .content-border img {
   width: 80%; 
@@ -113,8 +113,9 @@ h3{
   display: block;
   margin: 0 auto; 
 }
+
 .avatar-img , .hero-img {
-  width: 250px; 
+  width: 150px; 
   height: auto;
   border-radius: 50%;
 }
@@ -197,31 +198,67 @@ nav a:hover, nav li.active a {
   color:var(--branding-color);
 }
 
-@media(max-width: 900px){
+@media(max-width: 768px){
   h1{
-    font-size: 44px;
+    font-size: 30px;
     line-height: 56px;
   }
   h2{
-    font-size: 44px;
+    font-size: 20px;
   }
   h3{
     font-size: 18px;
   }
-  
-  .project-description{
-    padding: 0;
+
+ .logo {
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  .hero {
+    flex-direction: column;
     text-align: center;
   }
+  .hero-img {
+    max-width: 100px;
+  }
+  .hero-text {
+    margin-top: 10px;
+    }
+     .about-content {
+    margin-left: 20px;
+    align-content: left;
+  }
+  .content-border {
+    border-radius: 4px;
+    padding: 0.5rem; 
+    max-width: 250px; 
+  }
+  .btn-small-branding {
+    font-size: 0.8rem; 
+    padding: 0.3rem 0.6rem; 
+  }
+  .container p {
+    font-size: 0.8rem; 
+    line-height: 1.5;
+  }
+   .skills-list h6 {
+    font-size: 0.9rem;
+  }
+  .skills-list p {
+    font-size: 0.75rem; 
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .col-12 {
+    margin-bottom: 1rem; 
+  }
+  
 
- .about-section{
-  text-align: center;
-  padding: 0;
- }
- nav a{
-  font-size: 12px;
- }
- 
- 
+
+
 }
+ 
+
 
