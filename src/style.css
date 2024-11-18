@@ -1,5 +1,5 @@
 :root{
-  --branding-color: #a393eb; 
+  --branding-color: #000; 
   --heading-font-family:"Playfair Display", serif; 
   --default-font-family:"Poppins", sans-serif;
   --secondary-color: #f9f7fe; 
@@ -7,75 +7,48 @@
 body{
   font-family: var(--default-font-family);
 }
-
 h1,
 h2,
 h3,
-h4, 
-h5,
-h6{
+h4{
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 h1{
-  font-size: 80px;
-  
-}
-h2{
   font-size: 64px;
-}
-h3{
-  font-size: 42px;
 }
  p{
   font-size: 16px;
   line-height: 30px;
  }
- .hero{
-  text-align: center;
-  padding: 80px 20px;
+ .navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 20px; 
+}
+.hero {
   display: flex;
   align-items: center;
+  justify-content: center; 
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap; 
 }
- .hero p{
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0;
-
- }
- .hero h2{
-  font-family: var(--heading-font-family);
-  line-height: 1.5;
-  font-weight: normal;
-  font-size: 24px;
- }
- .content-container{
-  padding: 60px 20px;
- }
- .content-container h1{
-  font-size: 64px;
-  line-height: 80px;
- }
- .content-container h2{
-  font-size: 18px;
-  font-family: var(--default-font-family);
- }
- .content-container h3{
-  font-size: 24px;
-  margin: 20px 0 0;
-  font-family: var(--default-font-family);
-  line-height: 1.5;
- }
- .content-container p{
-
-  font-size: 14px;
- }
- .content{
-  margin: 30px;
- }
- .laptop{
-  border-radius: 10px;
- }
+.hero-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.hero-text {
+  max-width: 600px;
+  text-align: center;
+}
  .button-container {
   text-align: center; 
   margin-top: 20px; 
@@ -113,8 +86,7 @@ h3{
   display: block;
   margin: 0 auto; 
 }
-
-.avatar-img , .hero-img {
+.avatar-img {
   width: 150px; 
   height: auto;
   border-radius: 50%;
@@ -127,7 +99,6 @@ h3{
 }
 .logo{
   max-width: 150px;
- 
 }
 .skills-list {
   display: flex;
@@ -143,24 +114,6 @@ h3{
   align-items: center;
   flex: 1 1 45%;
   text-align: center;
-}
-nav{
-  padding: 20px 0;
-}
-nav ul{
-padding: 0;
-margin: 0;
-}
-nav li{
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-nav a{
-  text-decoration: none;
-  color: #272142; 
-  transition: all 100ms ease-in-out;
 }
 footer{
   margin: 60px 0;
@@ -197,7 +150,6 @@ footer .social-links a:hover{
 nav a:hover, nav li.active a {
   color:var(--branding-color);
 }
-
 @media(max-width: 768px){
   h1{
     font-size: 30px;
