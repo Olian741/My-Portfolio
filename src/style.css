@@ -128,7 +128,7 @@ footer .contact-box p{
 footer .email-link{
 text-decoration: none;
 color: #000;
-font-size: 24px;
+font-size: 18px;
 text-align: center;
 }
 footer .email-link:hover{
@@ -205,6 +205,9 @@ nav a:hover, nav li.active a {
   }
   .col-12 {
     margin-bottom: 1rem; 
+  }
+  footer .email-link{
+    font-size: 14px;
   }
   
 
